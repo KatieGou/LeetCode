@@ -2,3 +2,6 @@
 2. Check the sign.
 3. Remove the beginning '0's.
 4. Append digital strings to the result.
+
+New knowledge:
+str.replace() will replace all qualified characters and return the new string.
