@@ -1,0 +1,5 @@
+Hard question! Learnt about re (Regular expression operations) and its functions. 
+
+'.' matches any chars. '^' matches the start of the string. '$' matches the end of the string. '*' matches 0 or more repetition (greedy). '+' matches 1 or more repetition (greedy). '?' matches 0 or 1 repetition (greedy). 
+
+'*?', '+?', '??': non-greedy version of '*', '+' and '?': match as fewer chars as possible. 
