@@ -1,0 +1,5 @@
+Two pointers, one starts from the beginning, and the other one starts from the end. 
+
+Two for loops are unneccessary (time exceed error).
+
+Move the shorter height to corresponding direction, searching for larger value greedly. 
