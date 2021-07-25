@@ -14,5 +14,10 @@ class Solution:
         return result
                 
     def check_palindromic(self, s):
+        # length=len(s)
+        # for i in range(length//2):
+        #     if s[i]!=s[length-i-1]:
+        #         return False
+        # return True
         return s==s[::-1]            
         
