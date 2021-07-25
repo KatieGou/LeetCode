@@ -1,0 +1,5 @@
+Create two pointers, one starting from the beginning of the string, and the other one starting from the end of the string. Check the substring between the two pointers. Update 
+the result with the longest one.
+
+New knowledge:
+s[idx:idx:-1] is much more efficient than for loop when checking palindromic.
