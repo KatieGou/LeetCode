@@ -1,0 +1,1 @@
+Get the minimum length. Iterate all items checking the char at the same index. Update or return the result after each iteration.
