@@ -1,0 +1,3 @@
+Each batch contains numRows+numRows-2 chars. Calculate the number of batches based on the length of the string and the batch. 
+
+In the first and the last row, each batch contains 1 char; while in other rows, each batch contains two chars. Update the result with corresponding indice.
