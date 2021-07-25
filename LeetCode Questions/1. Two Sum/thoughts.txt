@@ -1,0 +1,1 @@
+Two indice looping over the list, return the indice immediately once found.
