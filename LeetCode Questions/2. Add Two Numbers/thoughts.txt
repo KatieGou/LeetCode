@@ -1,0 +1,7 @@
+1. Extract each element from the ListNode and form normal lists.
+2. Reverse the lists.
+3. Sum up, convert the result to list and reverse.
+4. Convert the result to ListNode by iterating the whole list (update val and next).
+
+New knowledge:
+list.reverse() will modify the list in place and does not return any value. 
