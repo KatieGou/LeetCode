@@ -1,0 +1,1 @@
+Create two pointers. One iterating the whole string, and the other one find the longest substring starting from the first pointer. Save the substrings and get the maximum length.
