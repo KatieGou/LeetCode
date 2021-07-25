@@ -1,0 +1,4 @@
+Python provides effecient operations on lists' merge and sort.
+
+New knowledge:
+list.sort(reverse=True|False, key=myFunc) sorts the list in place and does not return.
