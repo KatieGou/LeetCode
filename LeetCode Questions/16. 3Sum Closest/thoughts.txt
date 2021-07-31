@@ -1,0 +1,3 @@
+Similar as Q15, sort the list first. Initialize the shortest distance and the closest sum.
+Check each item and the sum with the other two numbers. Update distance and closest result at the same time. 
+Return immediately once the distance is equal to 0. 
