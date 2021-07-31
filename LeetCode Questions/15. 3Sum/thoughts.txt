@@ -1,0 +1,4 @@
+Sorting the list is a must: reduce searching time.
+Check each unrepeated number in the list. The target is the inverse value of it.
+Search the other two numbers from the beginning and the ending. Make sure their index are not different from the current value. 
+Sort the got list to check whether it's already in the result list. 
