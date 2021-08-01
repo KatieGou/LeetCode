@@ -1,0 +1,5 @@
+product function in itertool is the key. 
+
+itertools.product(*iterables) returns the cartesian product of all the itrable provieded as the argument. For example, product(arr1, arr2, arr3) is the same as product(*arrs), where arrs=[arr1, arr2, arr3].
+
+The return result from itertools.product() is a list of tuples. So I joined each tuple with ''.join(i), where i is the tuple.
