@@ -1,0 +1,1 @@
+Similar as 3Sum, instead of having only one index i, 4Sum has two indice i, j. Check the result to see whether it fulfills the requirement. Sort the result and append. 
