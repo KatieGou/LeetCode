@@ -1,0 +1,1 @@
+First convert the listnode to a list. Delete the according element. Convert the result list to a listnode. 
