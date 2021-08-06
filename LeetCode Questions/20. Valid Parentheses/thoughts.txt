@@ -1,0 +1,1 @@
+Create a stack using list in python. pop() if the bracket is closed. Check whether the stack is empty by the end.
