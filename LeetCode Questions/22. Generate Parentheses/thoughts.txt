@@ -1,0 +1,8 @@
+Dynamic programming is my weakness.
+
+Depth first search.
+
+if left_no==0 and right_no==0: all parentheses have been checked, append the list and return
+if left_no<0 or right_no<0: invalid, return immediately
+if left_no==right_no: only left parenthese can be used
+else: both left and rigth parenthese can be used
