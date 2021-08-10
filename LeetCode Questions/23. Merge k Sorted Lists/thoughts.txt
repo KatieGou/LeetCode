@@ -1,0 +1,1 @@
+Combine all listnodes to a single list. Sort the list. Convert the sorted list to listnode.
