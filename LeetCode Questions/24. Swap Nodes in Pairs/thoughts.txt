@@ -1,0 +1,6 @@
+If the given head is empty, return None. 
+
+Create a list to store the swapped nodes. Seperate the first two nodes from the nodelist. Swap the positions by breaking and re-connect the connection between them. Store them 
+the list. 
+
+Starting from the end of the list, update the final nodelist by assigning the node from the list. Return. 
