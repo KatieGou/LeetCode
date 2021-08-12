@@ -1,0 +1,8 @@
+Reverse the listnode sub by sub. If there are less than k nodes left, reverse back.
+
+At the first iteration, set the output to prev. 
+
+Important!! 
+reversed_listnode.next points to the same reference as output. When updating the reversed_listnode in the else statement, output is also updated. 
+
+Think more about it
