@@ -1,0 +1,5 @@
+I used accumulation with 2-to-the-power i to check whether the result has reached the dividend. Eg. if the input is 20 and 3, then 20=3*(2^2 + 2^1)+2, the result is (2^2 + 2^1)=6.
+
+current_res stores the value achieved so far, and exp_lst stores the list of exponents. 
+
+Make sure the distance to dividend is larger or euqal to the value achieved. Update current_res and exp_lst at each iteration. 
