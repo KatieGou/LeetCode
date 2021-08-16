@@ -1,0 +1,3 @@
+from collections import Counter: Counter returns a dictionary that stores each item and how many times it appears in a iterable object. 
+
+First I store each item and its counts in a dict, then I split each substring into pieces according to words. Then check whether Counter(substring)==Counter(words). Append the index accordingly.
