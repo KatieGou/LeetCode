@@ -1,0 +1,7 @@
+Check from the end of nums until find nums[i-1]<nums[i]. Swap nums[i-1] and nums[j], where nums[j] is in nums[i:] and is the smallest one that is greater than nums[i-1]. Sort nums[i:] ascending.
+
+New knowledge: 
+
+When sort a part of a list, is cannot be done in place. One should use 
+
+nums[i:]=sorted(nums[i:]).
