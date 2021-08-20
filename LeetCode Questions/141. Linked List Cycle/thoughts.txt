@@ -1,0 +1,1 @@
+The fast pointer will always catch up the slow pointer if there is a cycle. Otherwise the fast pointer will points to None.
