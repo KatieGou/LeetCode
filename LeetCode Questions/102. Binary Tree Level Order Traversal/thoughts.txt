@@ -1,0 +1,1 @@
+Store all the roots on the same level in a list root_lst. Iterate each root in root_lst, append the val of children to next_root_val_lst and children to new_root_lst. Assign new_root_lst to root_lst. Keep looping while root_lst is not None. 
