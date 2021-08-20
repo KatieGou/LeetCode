@@ -1,0 +1,1 @@
+The fast pointer will always meet the slow pointer if there is a cycle. If fast becomes None, it means there is no cycle.
