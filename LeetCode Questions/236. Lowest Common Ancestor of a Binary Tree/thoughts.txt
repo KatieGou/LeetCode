@@ -1,0 +1,5 @@
+New knowledge of backtracking: record node-parent pairs in a dictionary, where key is the child, value is the parent.
+
+When updating the dict, both p and q must be in the keys. 
+
+Then find all ancestors of p (or q) and store them in a list. Track back q's (or p's) ancestors. If found in the list, return immediately.
