@@ -1,0 +1,6 @@
+My solution:
+Accumulate water level by level. From the lowest level, count the number of zeros. Then move to the upper level until the heighest bar is checked. 
+
+Solution:
+Check from the left and the right and save to lists respectively. Make the best assumption that the water can be trapped by the highest bar. Retrieve the minimum value from the saved 
+lists, minus the current height of bar at each index.
