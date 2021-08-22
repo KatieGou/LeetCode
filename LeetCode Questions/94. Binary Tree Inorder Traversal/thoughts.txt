@@ -3,3 +3,6 @@ Preorder: root, left, right
 postorder: left, right, root
 
 Recursive approach is straightforward. 
+
+Iterative approach:
+Traverse the tree until no left node is found. Pop the current node, set the current node as its right. Do the same thing (Traverse the tree until no left node is found, pop and search right). If the right node is None, set the current node to the one poped by the stack. 
