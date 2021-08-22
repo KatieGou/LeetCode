@@ -1,0 +1,5 @@
+Inorder: left, root, right
+Preorder: root, left, right
+postorder: left, right, root
+
+Recursive approach is straightforward. 
