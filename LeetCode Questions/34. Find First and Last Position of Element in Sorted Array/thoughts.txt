@@ -1,0 +1,11 @@
+Binary search.
+
+i, j=0, len(nums)-1
+while i<=j:
+  m=(i+j)//2
+  if found:
+    return xxx
+  elif nums[m]>target:
+    j=m-1
+  else:
+    i=m+1
