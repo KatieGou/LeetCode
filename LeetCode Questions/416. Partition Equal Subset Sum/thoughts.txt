@@ -1,0 +1,2 @@
+Use a set to store all possible sums of each number in the given list nums.
+If the request sum_ in the set, return True. Otherwise, return False.
