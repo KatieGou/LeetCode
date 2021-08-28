@@ -1,0 +1,2 @@
+New knowledge: 
+dict.pop(key, None) can avoid key not exist error when deleting items from a dict.
