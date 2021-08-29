@@ -1,0 +1,19 @@
+My first time solving a problem with dynamic programming. 
+
+dp is initialized with all 0s to the same length of the given string. dp[i] means the longest valid parentheses up to index i.
+
+Traverse s starting from index 1. Only if s[i]=')' can it possibly form a complete parenthese with the previous '('. 
+
+There are two cases:
+
+Case1: s[i]=')' and s[i-1]='('
+
+In this case, s[i] and s[i-1] form a complete parenthese. Then dp[i] is simply updated to dp[i-2]+2 if i>=2 else 2.
+
+Case2: s[i]=')' and s[i-1]=')'
+
+To check whether s[i] forms a bigger complete parenthese, s[i-dp[i-1]-1] needs to be '(' and i-dp[i-1]-1 needs to be greater or equal to 0 (dp[i-1] is the length of sub parenthese ending with s[i-1]).
+
+If above requirement is qualified, it means the sequence is continuous up to s[i].
+
+So dp[i]=dp[i-1]+dp[i-dp[i-1]-2]+2 if i-dp[i-1]-2>=0 else dp[i-1]+2.
