@@ -1,0 +1,9 @@
+dp[i] means the total profits that can be gained till day i.
+
+There are two cases:
+
+Case 1:
+prices[i]>prices[i-1]. Then the profit will be the profit till day i-1 plus the difference between prices[i] and prices[i-1]
+
+Case 2:
+prices[i]<=prices[i-1]. Then the profit till day i will remain the same as it is on day i-1.
