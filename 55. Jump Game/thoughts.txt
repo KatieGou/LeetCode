@@ -1,0 +1,7 @@
+Dynamic programming.
+
+dp[i] means whether index i can be reached or not. 
+
+Update dp[i] according to max_reach_idx. The indices before max_reach_idx can be updated to True.
+
+Check dp[-1] in each iteration. 
