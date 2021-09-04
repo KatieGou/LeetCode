@@ -1,0 +1,7 @@
+1. Change each number to string within a for loop. 
+2. Sort the list of strings reversely.
+3. Some strings should be swapped, eg. after sorting, the result is ['30', '3'], but should be ['3', '30'] because 330 is larger than 303. 
+4. The swapping should only be carried out under two conditions:
+  a. nums[i] is part of nums[i-1], eg. ['51111', '51'], ['6511', '65'];
+  b. int(nums[i]+nums[i-1]) > int(nums[i-1]+nums[i]).
+5. I used something like bubble sort: set a flag 'changed', if any swapping is carried out, it becomes True, indicating the list should be checked again until it becomes False.
