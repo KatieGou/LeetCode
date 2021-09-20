@@ -1,0 +1,19 @@
+Different from climbing stairs. 
+
+Climbing stairs: Permutations. 
+Coin change: Combinations.
+
+Coin change:
+Outer iteration: coins
+Inner iteration: amounts
+The update way is dp[j]+=dp[j-coins[i]].
+dp[j] on the left is the number of combinations at amount j without coins[k],
+dp[j-coins[i]] on the right means the number of combinations at amount j-coins[i] with coins[k].
+dp[j] is updated by add the number of combinations at amount j-coins[i] with coins[k].
+This iteration way would yield combinations because the coins can't be used repeatedly (i.e. if we have (1, 2), then (2, 1) can't be used because they represent the same thing).
+
+Climbing stairs:
+Outer iteration: stairs
+Inner iteration: step
+Update way is the same as above.
+This iteration way would yield permutations because the steps can be used repeatedly (i.e. (1, 2) and (2, 1) are different thing).
