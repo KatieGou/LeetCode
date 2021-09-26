@@ -1,0 +1,1 @@
+Assign a variable(cur) equal to head. Set two pointers (cur and cur.next) and traverse the linked list. 
