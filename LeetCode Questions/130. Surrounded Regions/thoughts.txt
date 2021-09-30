@@ -1,0 +1,4 @@
+Except the 'O's connected to the edges of the board, all other 'O's should be replaced by 'X'. 
+The dfs(r, c) function is to change all 'O' that are connected to cell (r, c) to 'U', meaning that they should be unchanged. 
+For each cell on the edges, dfs function is called. 
+Finally, change all 'O's to 'X', and change all 'U's back to 'O'.
