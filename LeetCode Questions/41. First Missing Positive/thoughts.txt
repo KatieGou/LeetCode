@@ -1,0 +1,5 @@
+The minimum missing positive is related to the length of the list and should be in the range [1, len(nums)+1]. 
+
+I iterate the list and put the number into right position, e.g. [1, 2, 3, 4, ...]
+
+Finally iterate the list, if the number cannot correspond to the position, then the position is the first missing integer. 
