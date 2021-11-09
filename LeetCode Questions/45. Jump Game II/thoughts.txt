@@ -1,0 +1,6 @@
+Greedy algorithm. 
+
+max_pos: updated with each item in the list
+last_pos: the max position with specific steps
+
+!! max_pos means the pointer can reach any point before max_pos.
