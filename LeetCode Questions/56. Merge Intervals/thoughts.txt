@@ -1,0 +1,5 @@
+The time complexity of sort() is nlog(n), and it will sort the intervals according to the first item in the sub-list. 
+
+After sorting, the overlapping relationshio can be easily checked between two sub-lists. 
+
+The total time complexity is n+nlog(n).
