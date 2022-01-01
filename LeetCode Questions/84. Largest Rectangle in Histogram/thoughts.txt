@@ -1,0 +1,3 @@
+Add 0 to the end of the list to ensure it is the smaller or equal to other heights. 
+Iterate the list and store the index in a stack. If the current height is smaller than the previous height, pause and calculate area and update max area. (In this process, if the 
+stack is empty, it means the current height is the lowest value that has been met). 
