@@ -1,0 +1,10 @@
+Very hard question. 
+
+Preorder: root, left, right
+Inorder: left, root, right
+
+So each item in preorder is a root. Iterate preorder, get the root value and split inorder based on it to get the left subtree and the right subtree. Use a recursive function to 
+build the tree recursively by limiting the left and the right range of inorder. 
+
+New knowledge: nonlocal keyword in Python:
+To declare that the variable is not local. Used to work with variables inside nested functions, where the variable should not belong to the inner function.
